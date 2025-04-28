@@ -18,3 +18,13 @@ public:
         cout << "Masukkan luas = ";
         cin >> luas;
     }
+    void hitungluas()
+
+    {
+        luas = panjang * lebar;
+    }
+    void OutputData()
+    {
+        cout << "Luas Persegi Panjang = " << luas;
+    }
+};
