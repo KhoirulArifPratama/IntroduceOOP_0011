@@ -28,3 +28,12 @@ public:
         cout << "Luas Persegi Panjang = " << luas;
     }
 };
+
+int main()
+{
+    PersegiPanjang pp;
+
+    pp.inputdata();
+    pp.hitungluas();
+    pp.OutputData();
+}
